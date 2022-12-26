@@ -256,11 +256,3 @@ i {
 .space {
   padding: 50px;
 }
-
-.nav navbar-nav navbar-right li {
-  color: green;
-}
-
-nav navbar-nav navbar-right ul li {
-  text-align: center;
-}
