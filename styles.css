@@ -15,11 +15,11 @@ body {
 }
 
 .navbar-default .navbar-brand {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .navbar {
@@ -80,10 +80,6 @@ h4 {
   line-height: 55px;
 }
 
-.skills {
-  padding-top: 90px;
-}
-
 #myVideo {
   object-fit: cover;
   width: 100vw;
@@ -101,7 +97,7 @@ h4 {
   color: #b2b2b2;
   padding-top: 50px;
   font-family: "Barlow", sans-serif;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 #about {
@@ -161,10 +157,12 @@ h4 {
   background: transparent;
   font-family: "Barlow", sans-serif;
   letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .thumbnail {
   margin-top: 50px;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.95);
   border: transparent;
 }
 
@@ -229,4 +227,32 @@ i {
   #about {
     padding-top: 2em;
   }
+}
+
+.skills {
+  margin-top: 50px;
+  position: relative;
+  display: block;
+  right: 0;
+  left: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.95);
+  font-family: "Barlow", sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.skills h3 {
+  padding-bottom: 20px;
+}
+
+.skills p {
+  font-size: large;
+}
+
+.skills i {
+  font-size: larger;
+}
+.space {
+  padding: 50px;
 }
